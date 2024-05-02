@@ -9,7 +9,7 @@ const secondQuestion = document.querySelectorAll(".question")[1];
 
 yesBtn.addEventListener("click", () => {
   if (question.innerHTML === "I like you") {
-    window.location.href = "https://wa.me/6282260946344/?text=I%20like%20it%20too";
+    window.location.href = "https://wa.me/6282260946344/?text=I%20like%20you%20too";
   } else {
     question.innerHTML = "I like you";
     secondQuestion.innerHTML = "How about you?"; 
